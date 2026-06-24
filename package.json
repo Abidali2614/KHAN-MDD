@@ -1,6 +1,6 @@
 {
   "name": "KHAN-MD",
-  "version": "16.0.0",
+  "version": "15.0.0",
   "type": "module",
   "description": "A WhatsApp Bot Created By JawadTechX",
   "main": "index.js",
@@ -10,11 +10,11 @@
     "restart": "pm2 restart KHAN-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "7.0.0-rc10",
+    "@whiskeysockets/baileys": "7.0.0-rc.9",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@vitalets/google-translate-api": "^9.2.1",
     "pino": "^9.7.0",
-    "pm2": "^6.0.8",
+    "pm2": "^7.0.1",
     "util": "^0.12.5",
     "express": "^5.1.0",
     "buffer": "^6.0.3",
@@ -23,6 +23,7 @@
     "google-tts-api": "^2.0.2",
     "file_size_url": "1.0.6",
     "fs-extra": "^11.1.0",
+    "link-preview-js": "^3.0.15",
     "adm-zip": "^0.5.16",
     "ffmpeg": "^0.0.4",
     "file-type": "^21.0.0",
